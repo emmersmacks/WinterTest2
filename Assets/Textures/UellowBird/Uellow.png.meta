@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: ba174f68fa7cd3843bc469217927fa37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4038227930799681938
+    second: Uellow_0
+  - first:
+      213: -3958967515779502150
+    second: Uellow_1
+  - first:
+      213: 3504671675635294359
+    second: Uellow_2
+  - first:
+      213: -2655090611549980195
+    second: Uellow_3
+  - first:
+      213: -7472703982398524894
+    second: Uellow_4
+  - first:
+      213: 8099880535882900469
+    second: Uellow_5
+  - first:
+      213: -3744363425906022652
+    second: Uellow_6
+  - first:
+      213: -7158702103154681747
+    second: Uellow_7
+  - first:
+      213: -7474794728762585928
+    second: Uellow_8
+  - first:
+      213: -1812342412782066905
+    second: Uellow_9
+  - first:
+      213: -9124062418859056134
+    second: Uellow_10
+  - first:
+      213: -108947094577667433
+    second: Uellow_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Uellow_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5132785, y: 0.0573885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ecf96a71555f7c0800000000000000
+      internalID: -4038227930799681938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 20
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5663916, y: 0.058969267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfe6a8150cee09c0800000000000000
+      internalID: -3958967515779502150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.57966995, y: 0.032968454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906d98025813a030800000000000000
+      internalID: 3504671675635294359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.6128658, y: 0.032968454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9b614f729372bd0800000000000000
+      internalID: -2655090611549980195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2
+        width: 20
+        height: 28
+      alignment: 9
+      pivot: {x: 0.59294814, y: 0.035257943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2223d71f15f9b4890800000000000000
+      internalID: -7472703982398524894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5265564, y: 0.03279882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3a660be6e886070800000000000000
+      internalID: 8099880535882900469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.47344285, y: 0.0573885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40728e87d49590cc0800000000000000
+      internalID: -3744363425906022652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 20
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4269684, y: 0.044742472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689f989d5e27ac90800000000000000
+      internalID: -7158702103154681747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.38049468, y: 0.06501962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcc42f1cc1344890800000000000000
+      internalID: -7474794728762585928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.38713378, y: 0.06959836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72320c28d2449d6e0800000000000000
+      internalID: -1812342412782066905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2
+        width: 20
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4070511, y: 0.058969267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af32a674291d06180800000000000000
+      internalID: -9124062418859056134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uellow_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 2
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.4601639, y: 0.08197802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7922368d131fc7ef0800000000000000
+      internalID: -108947094577667433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: bea72e2322f3a0b4ea9a2319b5e5ee76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4064279682609860779
+    second: OgrHitDown_0
+  - first:
+      213: 6346715341222213338
+    second: OgrHitDown_1
+  - first:
+      213: -7508892913705315755
+    second: OgrHitDown_2
+  - first:
+      213: 4993057342573975952
+    second: OgrHitDown_3
+  - first:
+      213: 8616255034818998319
+    second: OgrHitDown_5
+  - first:
+      213: 335195415898935996
+    second: OgrHitDown_6
+  - first:
+      213: 1547747622992677464
+    second: OgrHitDown_7
+  - first:
+      213: 8479609323543434681
+    second: OgrHitDown_8
+  - first:
+      213: -6194327513664700895
+    second: OgrHitDown_9
+  - first:
+      213: -3672473732341730615
+    second: OgrHitDown_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OgrHitDown_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 20
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4479947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba05ccd76d8376830800000000000000
+      internalID: 4064279682609860779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 25
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4479947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6721cf9ff041850800000000000000
+      internalID: 6346715341222213338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_2
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 25
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4479947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5529526cdad0bc790800000000000000
+      internalID: -7508892913705315755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_3
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 23
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4479947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099174fd237ea4540800000000000000
+      internalID: 4993057342573975952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_5
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 24
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4479947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20be84ad46139770800000000000000
+      internalID: 8616255034818998319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_6
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 20
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4479947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2defe647ad6a400800000000000000
+      internalID: 335195415898935996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_7
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 26
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5620061, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a0f664344ba7510800000000000000
+      internalID: 1547747622992677464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_8
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 25
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.54000384, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b595ebb0cf9da570800000000000000
+      internalID: 8479609323543434681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_9
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 23
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.52052486, y: 0.5034691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e369df1f3590aa0800000000000000
+      internalID: -6194327513664700895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OgrHitDown_10
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 24
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.37, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c271d81990c80dc0800000000000000
+      internalID: -3672473732341730615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
