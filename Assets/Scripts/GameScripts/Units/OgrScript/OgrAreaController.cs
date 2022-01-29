@@ -37,7 +37,7 @@ public class OgrAreaController : MonoBehaviour
         else if (unitScript && unitScript is Ogr)
         {
             Ogr ogrScript = collider.GetComponent<Ogr>();
-            ogrScript.ChangeState(MonsterState.goHome);
+            ogrScript.GoHome();
             scriptUI.bossIsActive = false;
         }
     }

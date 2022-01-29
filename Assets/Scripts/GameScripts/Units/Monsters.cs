@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,13 +12,13 @@ public enum MonsterState : byte
 
 public class Monsters : Unit
 {
-
     public float seeDistance;
     public float attackDistance;
     public Transform enemyTarget;
     public Transform homeTarget;
     public SpriteRenderer sprite;
     public Vector3 movePos;
+    private Timer _attackTimerDelay = new Timer(TimeSpan.FromSeconds(3));
     
     protected MonsterState State = MonsterState.idle;
     
@@ -27,10 +28,10 @@ public class Monsters : Unit
         set { animator.SetInteger("State", (int)value); }
     }
 
-    void Awake()
-    {
-        CurrentAnimation = MonsterAnimations.awake;
-    }
+    //void Awake()
+    //{
+    //    CurrentAnimation = MonsterAnimations.awake;
+    //}
 
     public void ChangeState(MonsterState state)
     {
@@ -40,30 +41,21 @@ public class Monsters : Unit
         {
             case MonsterState.idle:
                 CurrentAnimation = MonsterAnimations.idle;
-                
-                if (IsTargetInSeeRange())
-                    ChangeState(MonsterState.followTarget);
 
                 break;
             case MonsterState.goHome:
-                if (GoHome())
-                    ChangeState(MonsterState.idle);
-                
+                MoveToHome();
+
                 break;
             case MonsterState.followTarget:
-                if (IsMonsterIsLeaveLocation())
-                    ChangeState(MonsterState.goHome);
-                
-                if (IsTargetInAttackRange())
-                    ChangeState(MonsterState.attack);
-                
                 FollowTarget();
 
                 break;
             case MonsterState.attack:
-                AttackTarget();
-
-                ChangeState(MonsterState.followTarget);
+                if (_attackTimerDelay.ResetIfElapsed())
+                {
+                    AttackTarget();
+                }
 
                 break;
             default:
@@ -92,16 +84,20 @@ public class Monsters : Unit
     private void FollowTarget()
     {
         CurrentAnimation = MonsterAnimations.go;
-        GoTo(enemyTarget);
+        MoveTo(enemyTarget);
     }
     
-    protected bool GoHome()
+    public void MoveToHome()
     {
         sprite.flipX = true;
-        return GoTo(homeTarget);
+        MoveTo(homeTarget);
+    }
+    protected bool IsInHome()
+    {
+        return homeTarget.transform.position.x == transform.position.x;
     }
 
-    protected bool GoTo(Transform nowTarget)
+    protected bool MoveTo(Transform nowTarget)
     {
         movePos = new Vector3(nowTarget.transform.position.x, transform.position.y, 3f);
         transform.position = Vector2.MoveTowards(transform.position, movePos, speed * Time.fixedDeltaTime);
@@ -114,6 +110,7 @@ public class Monsters : Unit
     protected void SpawnEnemyDestroyObj(float xCoord, float yCoord, GameObject spawnObj)
     {
         GameObject instObj = Instantiate(spawnObj);
+
         instObj.transform.parent = transform;
 
         if (!sprite.flipX)

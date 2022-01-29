@@ -14,20 +14,35 @@ public class Ogr : Monsters
         homeTarget = GameObject.FindWithTag("OgrHome").transform;
         sprite = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        speed = 1f;
+        speed = 0.7f;
         health = 500;
+        seeDistance = 5;
+        attackDistance = 2;
     }
 
     void Update()
     {
         TryFlip();
 
-        ChangeState(State);
+        if (!IsInHome() && State == MonsterState.goHome)
+            ChangeState(MonsterState.goHome);
+        else if (IsTargetInAttackRange())
+            ChangeState(MonsterState.attack);
+        else if (IsTargetInSeeRange())
+            ChangeState(MonsterState.followTarget);
+        else if (IsInHome())
+            ChangeState(MonsterState.idle);
+    
     }
 
     private void TryFlip()
     {
         sprite.flipX = transform.position.x > enemyTarget.transform.position.x;
+    }
+
+    public void GoHome()
+    { 
+        ChangeState(MonsterState.goHome);
     }
 
     protected override void AttackTarget()

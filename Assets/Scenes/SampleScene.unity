@@ -10539,9 +10539,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1002067601}
   - component: {fileID: 1002067604}
+  - component: {fileID: 1002067603}
   - component: {fileID: 1002067602}
   - component: {fileID: 1002067605}
-  - component: {fileID: 1002067603}
   m_Layer: 0
   m_Name: Ogr
   m_TagString: Untagged
@@ -10590,27 +10590,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002067600}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251062327cf9e3443b062f9846db536c, type: 3}
+  m_Script: {fileID: 11500000, guid: 534f34444200d4749be5a5a2e18b58ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  speed: 0
-  health: 0
-  weakness: 0
-  seeDistance: 9
-  attackDistance: 1.9
-  target: {fileID: 0}
+  animator: {fileID: 1002067602}
+  speed: 0.7
+  health: 500
+  seeDistance: 6
+  attackDistance: 3
+  enemyTarget: {fileID: 0}
   homeTarget: {fileID: 0}
-  wait: 0
-  home: 0
   sprite: {fileID: 0}
   movePos: {x: 0, y: 0, z: 0}
-  isFlip: 0
-  downAttackDistance: 1.6
+  downAttackDistance: 0
   nowPos: {x: 0, y: 0, z: 0}
-  boom: {fileID: 8931881364129454179, guid: 2b92934bd58d16746a4478f529fe9081, type: 3}
+  boom: {fileID: 0}
 --- !u!50 &1002067604
 Rigidbody2D:
   serializedVersion: 4
@@ -15386,7 +15382,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618768147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.09, y: -1.29, z: -1}
+  m_LocalPosition: {x: -7.6, y: -0.8, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1960056016}
@@ -15410,7 +15406,6 @@ MonoBehaviour:
   animator: {fileID: 0}
   speed: 2
   health: 0
-  weakness: 0
   jumpForce: 8
   inventory: {fileID: 0}
 --- !u!95 &1618768152
