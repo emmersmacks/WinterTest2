@@ -28,11 +28,6 @@ public class Monsters : Unit
         set { animator.SetInteger("State", (int)value); }
     }
 
-    //void Awake()
-    //{
-    //    CurrentAnimation = MonsterAnimations.awake;
-    //}
-
     public void ChangeState(MonsterState state)
     {
         State = state;
@@ -53,9 +48,7 @@ public class Monsters : Unit
                 break;
             case MonsterState.attack:
                 if (_attackTimerDelay.ResetIfElapsed())
-                {
                     AttackTarget();
-                }
 
                 break;
             default:
@@ -76,22 +69,18 @@ public class Monsters : Unit
         return DistanceOfTarget() < seeDistance;
     }
 
-    protected virtual bool IsMonsterIsLeaveLocation()
-    { 
-        return false;
-    }
-
     private void FollowTarget()
     {
         CurrentAnimation = MonsterAnimations.go;
         MoveTo(enemyTarget);
     }
-    
+
     public void MoveToHome()
     {
         sprite.flipX = true;
         MoveTo(homeTarget);
     }
+
     protected bool IsInHome()
     {
         return homeTarget.transform.position.x == transform.position.x;
@@ -123,7 +112,6 @@ public class Monsters : Unit
 
     protected IEnumerator WaitAnimation(float waitTime)
     {
-        ChangeState(MonsterState.goHome);
         yield return new WaitForSeconds(waitTime);
         ChangeState(MonsterState.idle);
     }

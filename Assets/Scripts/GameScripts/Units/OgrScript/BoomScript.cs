@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BoomScript : Monsters
 {
-
     new private Rigidbody2D rb;
 
     void Update()

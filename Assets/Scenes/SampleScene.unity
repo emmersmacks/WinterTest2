@@ -10606,7 +10606,7 @@ MonoBehaviour:
   movePos: {x: 0, y: 0, z: 0}
   downAttackDistance: 0
   nowPos: {x: 0, y: 0, z: 0}
-  boom: {fileID: 0}
+  boom: {fileID: 8931881364129454179, guid: 2b92934bd58d16746a4478f529fe9081, type: 3}
 --- !u!50 &1002067604
 Rigidbody2D:
   serializedVersion: 4

@@ -16,8 +16,9 @@ public class Ogr : Monsters
         animator = GetComponent<Animator>();
         speed = 0.7f;
         health = 500;
-        seeDistance = 5;
-        attackDistance = 2;
+        seeDistance = 8;
+        attackDistance = 3;
+        downAttackDistance = 2;
     }
 
     void Update()
@@ -26,13 +27,15 @@ public class Ogr : Monsters
 
         if (!IsInHome() && State == MonsterState.goHome)
             ChangeState(MonsterState.goHome);
+
         else if (IsTargetInAttackRange())
             ChangeState(MonsterState.attack);
+
         else if (IsTargetInSeeRange())
             ChangeState(MonsterState.followTarget);
+
         else if (IsInHome())
             ChangeState(MonsterState.idle);
-    
     }
 
     private void TryFlip()
