@@ -14,7 +14,7 @@ public class Ogr : Monsters
         homeTarget = GameObject.FindWithTag("OgrHome").transform;
         sprite = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        speed = 0.7f;
+        speed = 0.5f;
         health = 500;
         seeDistance = 8;
         attackDistance = 3;
@@ -28,8 +28,11 @@ public class Ogr : Monsters
         if (!IsInHome() && State == MonsterState.goHome)
             ChangeState(MonsterState.goHome);
 
-        else if (IsTargetInAttackRange())
+        else if (IsCanAttackTarget() || State == MonsterState.attack)
             ChangeState(MonsterState.attack);
+
+        else if (State == MonsterState.attackInProcess)
+            ChangeState(MonsterState.attackInProcess);
 
         else if (IsTargetInSeeRange())
             ChangeState(MonsterState.followTarget);

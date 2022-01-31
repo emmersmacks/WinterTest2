@@ -8,6 +8,7 @@ public enum MonsterState : byte
     goHome,
     followTarget,
     attack,
+    attackInProcess,
 }
 
 public class Monsters : Unit
@@ -18,7 +19,7 @@ public class Monsters : Unit
     public Transform homeTarget;
     public SpriteRenderer sprite;
     public Vector3 movePos;
-    private Timer _attackTimerDelay = new Timer(TimeSpan.FromSeconds(3));
+    private Timer _attackTimerDelay = new Timer(TimeSpan.FromSeconds(1.5f));
     
     protected MonsterState State = MonsterState.idle;
     
@@ -46,10 +47,17 @@ public class Monsters : Unit
                 FollowTarget();
 
                 break;
+            case MonsterState.attackInProcess:
+                if (_attackTimerDelay.IsElapsed)
+                    State = MonsterState.idle;
+
+                break;
             case MonsterState.attack:
                 if (_attackTimerDelay.ResetIfElapsed())
+                {
                     AttackTarget();
-
+                    State = MonsterState.attackInProcess;
+                }
                 break;
             default:
                 Debug.LogError("Unexpected state " + state.ToString());
@@ -59,9 +67,9 @@ public class Monsters : Unit
 
     protected virtual void AttackTarget() { }
 
-    protected virtual bool IsTargetInAttackRange()
+    protected virtual bool IsCanAttackTarget()
     {
-        return DistanceOfTarget() < attackDistance;
+        return DistanceOfTarget() < attackDistance && _attackTimerDelay.IsElapsed;
     }
 
     protected virtual bool IsTargetInSeeRange()
@@ -118,6 +126,6 @@ public class Monsters : Unit
 
     protected float DistanceOfTarget()
     {
-        return Vector3.Distance(transform.position, enemyTarget.transform.position);
+        return Mathf.Abs(transform.position.x - enemyTarget.transform.position.x);
     }
 }

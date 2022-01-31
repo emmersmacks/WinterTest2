@@ -15404,7 +15404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  speed: 2
+  speed: 3.46
   health: 0
   jumpForce: 8
   inventory: {fileID: 0}
